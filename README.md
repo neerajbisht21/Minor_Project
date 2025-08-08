@@ -13,23 +13,23 @@ Using a combination of computer vision and machine learning techniques, the syst
 **Features**
 ------------
 
-1. 📊 **Real-time Hand Detection**: The system uses a HandDetector module to detect and track hand movements in real-time, allowing for accurate and efficient gesture recognition.
-2. 🤖 **Machine Learning-based Classification**: The system uses a Classifier module to classify detected hand gestures into predefined categories, making it possible to recognize a wide range of gestures.
-3. 📁 **Customizable Model Training**: Users can train the model using their own dataset and customize the recognition process to suit their specific needs.
-4. 📊 **Multi-Finger Support**: The system supports multi-finger gestures, allowing for more complex and nuanced recognition.
-5. 📈 **High Accuracy**: The system achieves high accuracy in gesture recognition, making it a reliable tool for a wide range of applications.
-6. 🕹️ **Real-time Feedback**: The system provides real-time feedback to the user, allowing them to adjust their gestures and improve recognition accuracy.
-7. 📊 **Hand Shape Recognition**: The system can recognize various hand shapes, including open and closed hands, as well as different finger positions.
-8. 📊 **Finger Movement Recognition**: The system can recognize various finger movements, including pointing, swiping, and tapping.
-9. 📊 **Hand Rotation Recognition**: The system can recognize hand rotations, allowing for more precise gesture recognition.
-10. 📊 **Multi-Modal Support**: The system supports multiple modalities, including video, image, and audio, making it a versatile tool for a wide range of applications.
+1. 📊 **Real-time Hand Detection**: The system uses a HandDetector module to detect and track hand movements in real-time.
+2. 🤖 **Machine Learning-based Classification**: Classifies detected hand gestures into predefined categories.
+3. 📁 **Customizable Model Training**: Train the model using your own dataset.
+4. ✋ **Multi-Finger Support**: Supports multi-finger gestures.
+5. 📈 **High Accuracy**: Reliable tool for gesture recognition.
+6. 🕹️ **Real-time Feedback**: Adjust gestures with instant feedback.
+7. ✋ **Hand Shape Recognition**: Detects various hand shapes.
+8. 👉 **Finger Movement Recognition**: Recognizes pointing, swiping, tapping, etc.
+9. 🔄 **Hand Rotation Recognition**: Supports hand rotation detection.
+10. 🧠 **Multi-Modal Support**: Works with video, image, and audio.
 
 **Tech Stack**
 -------------
 
 | Frontend | Backend | Tools |
-| --- | --- | --- |
-| Python | OpenCV, Keras, TensorFlow | NumPy, Matplotlib |
+|----------|---------|-------|
+| Python   | OpenCV, Keras, TensorFlow | NumPy, Matplotlib |
 
 **Project Structure**
 --------------------
@@ -43,50 +43,45 @@ Model/labels.txt
 requirements.txt
 ```
 
-* `test2.py`: The main Python script that demonstrates the usage of the Hand Gesture Recognition System.
-* `datacollection.py`: The script used to collect and preprocess data for model training.
-* `README.md`: This file!
-* `Model/`: The folder containing the pre-trained model files.
-* `requirements.txt`: The file listing the required Python packages and dependencies.
+- `test2.py`: Main script to run gesture recognition.
+- `datacollection.py`: For collecting and preprocessing training data.
+- `README.md`: Project documentation.
+- `Model/`: Pre-trained model and labels.
+- `requirements.txt`: Python dependencies.
 
 **How to Run**
 --------------
 
-1. 📦 **Setup**: Install the required Python packages and dependencies listed in the `requirements.txt` file.
-2. 📁 **Environment**: Set up a Python environment with the required packages installed.
-3. 💻 **Build**: Compile the project and build the executable.
-4. 📱 **Deploy**: Deploy the project to a suitable platform or environment.
+1. 📦 Install packages: `pip install -r requirements.txt`
+2. 🏗️ Run: `python test2.py`
+3. 📱 Customize or extend as needed
 
 **Testing Instructions**
 -------------------------
 
-1. 📊 **Unit Testing**: Run the unit tests using the `pytest` command.
-2. 📊 **Integration Testing**: Run the integration tests using the `pytest` command.
-3. 📊 **End-to-End Testing**: Run the end-to-end tests using the `pytest` command.
+1. ✅ Unit Testing: Use `pytest`
+2. 🔗 Integration Testing: Use `pytest`
+3. 🔄 End-to-End Testing: Use `pytest`
 
 **Screenshots**
--------------
+---------------
 
-📸 [Screenshot 1: Screenshot%202025-04-05%20123701.png]
-
+📸 ![Screenshot](./78f7838f-65ea-45d9-849a-8197f011fefa.png)
 
 **API Reference**
-----------------
+------------------
 
-* `HandDetector(maxHands=1)`: Initializes the HandDetector module with the specified number of hands.
-* `Classifier(model_path, labels_path)`: Initializes the Classifier module with the specified model and labels paths.
-* `hand_detector.detect_hand(frame)`: Detects and tracks hand movements in the specified frame.
-* `classifier.classify_hand(hand)`: Classifies the detected hand gestures into predefined categories.
+- `HandDetector(maxHands=1)`: Initialize hand detection.
+- `Classifier(model_path, labels_path)`: Load model and labels.
+- `hand_detector.detect_hand(frame)`: Detect hands in frame.
+- `classifier.classify_hand(hand)`: Classify hand gesture.
 
 **Author**
 ----------
 
-* 👤 [Your Name]
-* 📧 [Your Email]
+- 👤 Neeraj Singh Bisht
 
 **License**
----------
+-----------
 
-* 📝 [License Information]
-
-Note: This README file is a template and should be modified to fit your specific project needs.
+This project is licensed under the MIT License.
