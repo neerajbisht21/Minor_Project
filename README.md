@@ -67,9 +67,8 @@ requirements.txt
 **Screenshots**
 -------------
 
-📸 [Screenshot 1: Hand Gesture Recognition System in Action]
+📸 [Screenshot 1: Screenshot%202025-04-05%20123701.png]
 
-📸 [Screenshot 2: Customizable Model Training]
 
 **API Reference**
 ----------------
