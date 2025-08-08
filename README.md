@@ -66,7 +66,7 @@ requirements.txt
 **Screenshots**
 ---------------
 
-📸 ![Screenshot](./78f7838f-65ea-45d9-849a-8197f011fefa.png)
+📸 ![Screenshot](./Screenshot%202025-04-05%20123701.png)
 
 **API Reference**
 ------------------
